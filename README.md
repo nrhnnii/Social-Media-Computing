@@ -1,4 +1,4 @@
-### 📁 Tutorial-03-04-NLP/
+### 📁 Tutorial 3 & 4
 
 **Topic**: Text Preprocessing & NLP with NLTK
 
