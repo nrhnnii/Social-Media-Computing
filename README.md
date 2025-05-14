@@ -5,7 +5,7 @@
 **Description**:  
 This tutorial introduces basic Natural Language Processing (NLP) techniques using the NLTK library. It covers essential preprocessing steps including sentence segmentation, tokenization, case folding, punctuation removal, stopword removal, stemming, and part-of-speech (POS) tagging. The tutorial also includes advanced tasks such as Named Entity Recognition (NER) using SpaCy and word cloud generation to visualize frequently used terms.
 
-The analysis is performed on a restaurant reviews dataset collected from Google Maps: [`GoogleReview_data_cleaned.csv`](https://www.kaggle.com/datasets/choonkhonng/malaysia-restaurant-review-datasets). This dataset contains customer reviews from restaurants in Ipoh, Malaysia, and is suitable for exploring real-world textual data in sentiment and linguistic analysis.
+The analysis is performed on a restaurant reviews dataset collected from Google Maps: [`GoogleReview_data_cleaned.csv`](https://www.kaggle.com/datasets/choonkhonng/malaysia-restaurant-review-datasets) 
 
 ---
 
@@ -16,7 +16,7 @@ The analysis is performed on a restaurant reviews dataset collected from Google 
 **Description**:  
 This tutorial focuses on unsupervised sentiment analysis using two lexicon-based tools: **TextBlob** and **VADER**. Both methods were applied to customer reviews to extract polarity (positive/negative) and subjectivity scores. TextBlob provided a basic sentiment score and subjectivity measure, while VADER offered a more granular breakdown including negative, neutral, positive proportions and a compound score optimized for social media-style text. A comparison between both methods was conducted through correlation analysis and visualization. This allowed deeper understanding of how each tool interprets tone and emotion in user-generated text.
 
-The analysis was performed on a dataset of restaurant reviews from Google Maps: [`GoogleReview_data_cleaned.csv`](https://www.kaggle.com/datasets/choonkhonng/malaysia-restaurant-review-datasets), containing user reviews from eateries in Ipoh, Malaysia.
+The analysis was performed on a dataset of restaurant reviews from Google Maps: [`GoogleReview_data_cleaned.csv`](https://www.kaggle.com/datasets/choonkhonng/malaysia-restaurant-review-datasets)
 
 ---
 
