@@ -1,30 +1,51 @@
-### 📁 Tutorial 3 & 4
+# 📚 Natural Language Processing on Malaysian Restaurant Reviews
 
-**Topic**: Text Preprocessing & NLP with NLTK
+This repository explores a full NLP pipeline using real-world customer reviews from Google Maps. The tutorials cover everything from basic preprocessing to advanced sentiment analysis and social network modeling — all using the same dataset:
 
-**Description**:  
-This tutorial introduces basic Natural Language Processing (NLP) techniques using the NLTK library. It covers essential preprocessing steps including sentence segmentation, tokenization, case folding, punctuation removal, stopword removal, stemming, and part-of-speech (POS) tagging. The tutorial also includes advanced tasks such as Named Entity Recognition (NER) using SpaCy and word cloud generation to visualize frequently used terms.
-
-The analysis is performed on a restaurant reviews dataset collected from Google Maps: [`GoogleReview_data_cleaned.csv`](https://www.kaggle.com/datasets/choonkhonng/malaysia-restaurant-review-datasets) 
+📁 **Dataset**: [GoogleReview_data_cleaned.csv](https://www.kaggle.com/datasets/choonkhonng/malaysia-restaurant-review-datasets)  
+🗂️ **Source**: Google Maps reviews of restaurants across Malaysia
 
 ---
 
-### 📁 Tutorial 5 & 6
+## 🔍 Tutorials Overview
 
-**Topic**: Sentiment Analysis with TextBlob & VADER
-
-**Description**:  
-This tutorial focuses on unsupervised sentiment analysis using two lexicon-based tools: **TextBlob** and **VADER**. Both methods were applied to customer reviews to extract polarity (positive/negative) and subjectivity scores. TextBlob provided a basic sentiment score and subjectivity measure, while VADER offered a more granular breakdown including negative, neutral, positive proportions and a compound score optimized for social media-style text. A comparison between both methods was conducted through correlation analysis and visualization. This allowed deeper understanding of how each tool interprets tone and emotion in user-generated text.
-
-The analysis was performed on a dataset of restaurant reviews from Google Maps: [`GoogleReview_data_cleaned.csv`](https://www.kaggle.com/datasets/choonkhonng/malaysia-restaurant-review-datasets)
+### 📁 Tutorial 3 & 4 – Text Preprocessing & NLP with NLTK
+**Goal**: Learn essential text preprocessing techniques  
+**Topics**:
+- Sentence segmentation, tokenization, case folding
+- Punctuation and stopword removal
+- POS tagging, stemming
+- Named Entity Recognition (NER) using spaCy
+- Word cloud visualization
 
 ---
 
-### 📁 Tutorial 7
+### 📁 Tutorial 5 & 6 – Sentiment Analysis with TextBlob & VADER
+**Goal**: Extract sentiment orientation using lexicon-based models  
+**Tools**: TextBlob, VADER  
+**Tasks**:
+- Polarity and subjectivity scoring
+- Social-media-aware sentiment analysis
+- Comparing and visualizing both tools
 
-**Topic**: Social Network Analysis with NetworkX & Louvain
+---
 
-**Description**:  
-This tutorial introduces the fundamentals of Social Network Analysis (SNA) using Python libraries **NetworkX** and **community-louvain**. A bipartite graph was constructed linking reviewers to restaurants. The graph was then projected into a reviewer–reviewer network based on shared restaurant interactions. The **Louvain method** was used to detect community structures within this network, revealing clusters of reviewers with similar food preferences. The detected communities were analyzed to identify common restaurant patterns, and results were visualized to highlight the connectivity and segmentation of reviewer behavior.
+### 📁 Tutorial 7 – Social Network Analysis with NetworkX & Louvain
+**Goal**: Discover user behavior through reviewer–restaurant relationships  
+**Tools**: NetworkX, community-louvain  
+**Tasks**:
+- Bipartite graph modeling
+- Reviewer similarity projection
+- Community detection and visualization
 
-The network analysis was conducted on the same restaurant reviews dataset: [`GoogleReview_data_cleaned.csv`](https://www.kaggle.com/datasets/choonkhonng/malaysia-restaurant-review-datasets), making it possible to explore real-world social interactions and preferences within a local food scene.
+---
+
+### 📁 Tutorial 8 & 9 – Opinion Mining & Sentiment Enrichment with Transformers
+**Goal**: Go deeper into meaning, tone, and nuance in user reviews  
+**Tools**: spaCy, pywsd, Hugging Face Transformers, VADER  
+**Tasks**:
+- Named Entity Recognition (NER)
+- Word Sense Disambiguation (WSD)
+- Sentence sentiment classification (RoBERTa)
+- Lexicon-based word sentiment
+- Polarity and sentiment strength extraction
