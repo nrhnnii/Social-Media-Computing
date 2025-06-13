@@ -49,3 +49,14 @@ This repository explores a full NLP pipeline using real-world customer reviews f
 - Sentence sentiment classification (RoBERTa)
 - Lexicon-based word sentiment
 - Polarity and sentiment strength extraction
+
+---
+
+### 📁 Tutorial 10 & 11 – Aspect-Based Opinion Mining & Sentiment Modeling  
+**Goal**: Identify what people like or dislike about specific aspects (e.g., food, service)  
+**Tools**: spaCy, WordCloud, Matplotlib  
+**Tasks**:
+- Opinion type classification: Explicit vs Implicit
+- Aspect-opinion extraction via dependency parsing (spaCy)
+- Grouping aspects by sentiment using rating-based labels
+- Visualization of top aspects and opinions using word clouds
