@@ -60,3 +60,30 @@ This repository explores a full NLP pipeline using real-world customer reviews f
 - Aspect-opinion extraction via dependency parsing (spaCy)
 - Grouping aspects by sentiment using rating-based labels
 - Visualization of top aspects and opinions using word clouds
+
+---
+
+### 📁 Exercise 3 – Machine Learning-Based Sentiment Modeling  
+**Goal**: Apply both unsupervised and supervised ML to analyze review sentiments  
+**Dataset Used**: `GoogleReview_data_cleaned.csv`
+
+#### a) Dependency-Based Parsing for Aspect Sentiment
+- Used **SpaCy** to extract adjective–noun pairs (e.g., *"bad service"*, *"great ambience"*)
+- Parsed opinion-bearing phrases using dependency labels like `amod`
+- Helped identify sentiment tied to specific review aspects (e.g., food, staff, view)
+
+#### b) Unsupervised Learning (Clustering)
+- Applied **TF-IDF** vectorization + **K-Means** clustering (`k=3`)
+- Grouped reviews into semantic clusters:
+  - Cluster 0: Highly negative complaints
+  - Cluster 1: Mixed or service-focused
+  - Cluster 2: Vague or fragmented reviews
+- Explored common themes per cluster for topic modeling
+
+#### c) Supervised Learning (Sentiment Classification)
+- Generated sentiment labels from review ratings:
+  - Ratings 4–5 → Positive
+  - Ratings 1–2 → Negative
+- Trained a **Logistic Regression** classifier on TF-IDF features
+- Achieved **93.3% accuracy**, with high performance on positive reviews
+- Noted some performance drop in identifying negative reviews
